@@ -4,6 +4,7 @@ import {bootstrap} from "./src/config/bootstrap";
 import {DrugListScreen} from "./src/screen/drugListScreen";
 import AddDrugScreen from "./src/screen/addDrugScreen";
 import {TakeDrugScreen} from "./src/screen/takeDrugScreen";
+import {TimerScreen} from "./src/screen/timerScreen";
 // import {YellowBox} from 'react-native';
 
 // ignore some warnings
@@ -17,6 +18,7 @@ const App = createBottomTabNavigator({
     },
     DrugList: {screen: DrugListScreen},
     AddDrug: {screen: AddDrugScreen},
+    Timer: {screen: TimerScreen},
 }, {
     tabBarPosition: 'bottom',
     animationEnabled: true,
